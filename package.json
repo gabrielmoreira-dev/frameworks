@@ -4,7 +4,8 @@
     "description": "Simple API used in my graduation monograph",
     "main": "index.js",
     "scripts": {
-        "dev": "node node_modules/nodemon/bin/nodemon index.js"
+        "dev": "node node_modules/nodemon/bin/nodemon index",
+        "start": "node index"
     },
     "repository": {
         "type": "git",
