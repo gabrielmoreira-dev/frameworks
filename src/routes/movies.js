@@ -8,12 +8,8 @@ router.get('/', moviesController.getMovies)
 
 router.post('/', moviesController.insertMovie)
 
-router.put('/:id', (req, res, next) => {
-    res.status(200).send(postMovieMock)
-})
+router.put('/:id', moviesController.updateMovie)
 
-router.delete('/:id', (req, res, next) => {
-    res.status(200).send()
-})
+router.delete('/:id', moviesController.deleteMovie)
 
 module.exports = router
