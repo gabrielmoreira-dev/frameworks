@@ -4,6 +4,8 @@ exports.getMovies = categoria => Movie.find(
     categoria ? { categoria } : {}
 )
 
+exports.getMovie = id => Movie.findById(id)
+
 exports.insertMovie = movie => Movie.create(movie)
 
 exports.updateMovie = (id, movie) => Movie.findOneAndUpdate(
