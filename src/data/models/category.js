@@ -1,4 +1,4 @@
-const Category = {
+module.exports = {
     ACTION: "Ação",
     COMEDY: "Comédia",
     DOCUMENTARY: "Documentário",
@@ -8,5 +8,3 @@ const Category = {
     HORROR: "Terror",
     ROMANCE: "Romance"
 }
-
-module.exports = Category
