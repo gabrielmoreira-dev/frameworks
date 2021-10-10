@@ -1,16 +1,12 @@
 const express = require('express')
 const router = express.Router()
+const moviesController = require('../controllers/movies_controller')
 
-let getMoviesMock = require('../mocks/filmes.get.json')
 let postMovieMock = require('../mocks/filmes.post.json')
 
-router.get('/', (req, res, next) => {
-    res.status(200).send(getMoviesMock)
-})
+router.get('/', moviesController.getMovies)
 
-router.post('/', (req, res, next) => {
-    res.status(200).send(postMovieMock)
-})
+router.post('/', moviesController.insertMovie)
 
 router.put('/:id', (req, res, next) => {
     res.status(200).send(postMovieMock)
