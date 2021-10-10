@@ -1,8 +1,9 @@
 const moviesRepository = require('../data/repository/movies_repository')
 
-exports.getMovies = async (_, res) => {
+exports.getMovies = async (req, res) => {
     try {
-        const movies = await moviesRepository.getMovies()
+        console.log(req.query.categoria)
+        const movies = await moviesRepository.getMovies(req.query.categoria)
         res.status(200).send(movies)
     } catch (e) {
         res.status(500).send()
