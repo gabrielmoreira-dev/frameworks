@@ -29,4 +29,4 @@ module.exports = new mongoose.Schema({
     personagens: {
         type: [CharacterSchema]
     }
-})
+}, { versionKey: false })
