@@ -1,8 +1,9 @@
 const Movie = require('../models/movie')
 
-exports.getMovies = categoria => Movie.find(
-    categoria ? { categoria } : {}
-)
+exports.getMovies = categoria => Movie
+    .find(categoria ? { categoria } : {})
+    .sort({ 'createdAt': -1 })
+    .select('-createdAt -personagens._id')
 
 exports.getMovie = id => Movie.findById(id)
 
