@@ -1,13 +1,19 @@
 const Movie = require('../models/movie')
 
-exports.getMovies = categoria => Movie
+let fields = '-createdAt -owner -personagens._id'
+
+exports.getMovies = (owner, categoria) => Movie
     .find(categoria ? { categoria } : {})
+    .or([{ owner }, { owner: { $eq: null } }])
     .sort({ 'createdAt': -1 })
-    .select('-createdAt -personagens._id')
+    .select(fields)
 
 exports.getMovie = id => Movie.findById(id)
 
-exports.insertMovie = movie => Movie.create(movie)
+exports.insertMovie = (owner, movie) => Movie.create({
+    owner,
+    ...movie
+})
 
 exports.updateMovie = (id, movie) => Movie.findOneAndUpdate(
     { id },
