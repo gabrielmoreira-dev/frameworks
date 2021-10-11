@@ -28,5 +28,9 @@ module.exports = new mongoose.Schema({
     },
     personagens: {
         type: [CharacterSchema]
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now
     }
 }, { versionKey: false })
