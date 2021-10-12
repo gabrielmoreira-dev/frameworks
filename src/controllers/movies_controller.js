@@ -12,15 +12,6 @@ exports.getMovies = async (req, res) => {
     }
 }
 
-exports.getMovie = async (req, res) => {
-    try {
-        const movie = await moviesRepository.getMovie(req.params.id)
-        res.status(200).send(movie)
-    } catch (e) {
-        res.status(500).send()
-    }
-}
-
 exports.insertMovie = async (req, res) => {
     try {
         const movie = await moviesRepository.insertMovie(
