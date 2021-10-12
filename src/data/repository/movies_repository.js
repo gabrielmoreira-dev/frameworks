@@ -6,8 +6,6 @@ exports.getMovies = (owner, categoria) => Movie
     .sort({ 'createdAt': -1 })
     .select('-createdAt -owner')
 
-exports.getMovie = id => Movie.findById(id)
-
 exports.insertMovie = (owner, movie) => Movie.create({
     owner,
     ...movie

@@ -4,8 +4,6 @@ const moviesController = require('../controllers/movies_controller')
 
 router.get('/', moviesController.getMovies)
 
-router.get('/:id', moviesController.getMovie)
-
 router.post('/', moviesController.insertMovie)
 
 router.put('/:id', moviesController.updateMovie)
