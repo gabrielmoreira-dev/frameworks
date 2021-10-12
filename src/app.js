@@ -6,10 +6,15 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use((_, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*")
+    res.header('Access-Control-Allow-Credentials', 'true')
+    res.header('Access-Control-Allow-Origin', '*')
     res.header(
         'Access-Control-Allow-Headers',
-        'Origin, X-Requested-With, Content-Type, Accept'
+        'Origin, X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+    )
+    res.header(
+        'Access-Control-Allow-Methods',
+        'GET,OPTIONS,PATCH,DELETE,POST,PUT'
     )
     app.use(cors())
     next()
