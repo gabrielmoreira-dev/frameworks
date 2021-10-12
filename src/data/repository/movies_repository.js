@@ -4,7 +4,7 @@ exports.getMovies = (owner, categoria) => Movie
     .find(categoria ? { categoria } : {})
     .or([{ owner }, { owner: { $eq: null } }])
     .sort({ 'createdAt': -1 })
-    .select('-createdAt -owner -personagens._id')
+    .select('-createdAt -owner')
 
 exports.getMovie = id => Movie.findById(id)
 
