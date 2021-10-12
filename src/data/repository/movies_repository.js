@@ -1,12 +1,10 @@
 const Movie = require('../models/movie')
 
-let fields = '-createdAt -owner -personagens._id'
-
 exports.getMovies = (owner, categoria) => Movie
     .find(categoria ? { categoria } : {})
     .or([{ owner }, { owner: { $eq: null } }])
     .sort({ 'createdAt': -1 })
-    .select(fields)
+    .select('-createdAt -owner -personagens._id')
 
 exports.getMovie = id => Movie.findById(id)
 
