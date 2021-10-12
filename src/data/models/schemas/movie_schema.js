@@ -32,5 +32,8 @@ module.exports = new mongoose.Schema({
     createdAt: {
         type: Date,
         default: Date.now
+    },
+    owner: {
+        type: String
     }
 }, { versionKey: false })
