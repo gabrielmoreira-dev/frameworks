@@ -16,9 +16,9 @@ exports.insertMovie = (owner, movie) => Movie.create({
 })
 
 exports.updateMovie = (id, movie) => Movie.findOneAndUpdate(
-    { id },
+    { _id: id },
     { ...movie },
     { new: true }
 )
 
-exports.deleteMovie = id => Movie.findOneAndDelete({ id })
+exports.deleteMovie = id => Movie.findOneAndDelete({ _id: id })
