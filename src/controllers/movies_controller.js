@@ -37,8 +37,18 @@ exports.updateMovie = async (req, res) => {
 exports.deleteMovie = async (req, res) => {
     try {
         const id = req.params.id
-        const _ = await moviesRepository.deleteMovie(id)
+        await moviesRepository.deleteMovie(id)
         res.status(200).send()
+    } catch (e) {
+        res.status(500).send()
+    }
+}
+
+exports.resetMovies = async (_, res) => {
+    try {
+        await moviesRepository.clearMovies()
+        const movies = await moviesRepository.setMovies()
+        res.status(200).send(movies)
     } catch (e) {
         res.status(500).send()
     }
