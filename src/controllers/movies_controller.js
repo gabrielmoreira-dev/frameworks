@@ -50,7 +50,6 @@ exports.resetMovies = async (_, res) => {
         const movies = await moviesRepository.setMovies()
         res.status(200).send(movies)
     } catch (e) {
-        console.log(e)
         res.status(500).send()
     }
 }
