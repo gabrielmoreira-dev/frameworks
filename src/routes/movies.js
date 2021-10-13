@@ -10,4 +10,6 @@ router.put('/:id', moviesController.updateMovie)
 
 router.delete('/:id', moviesController.deleteMovie)
 
+router.post('/reset', moviesController.resetMovies)
+
 module.exports = router

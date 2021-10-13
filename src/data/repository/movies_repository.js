@@ -1,4 +1,5 @@
 const Movie = require('../models/movie')
+const movieData = require('../dummy/movies_data.json')
 
 exports.getMovies = (owner, categoria) => Movie
     .find(categoria ? { categoria } : {})
@@ -18,3 +19,7 @@ exports.updateMovie = (id, movie) => Movie.findOneAndUpdate(
 )
 
 exports.deleteMovie = id => Movie.findOneAndDelete({ _id: id })
+
+exports.clearMovies = _ => Movie.deleteMany({})
+
+exports.setMovies = _ => Movie.insertMany(movieData)
