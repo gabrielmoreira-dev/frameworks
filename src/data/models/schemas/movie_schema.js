@@ -21,19 +21,19 @@ module.exports = new mongoose.Schema({
         required: true
     },
     ano: {
-        type: String
+        type: Number
     },
-    tempo: {
-        type: String
+    duracao: {
+        type: Number
     },
     personagens: {
         type: [CharacterSchema]
     },
-    createdAt: {
+    criadoEm: {
         type: Date,
         default: Date.now
     },
-    owner: {
+    matricula: {
         type: String
     }
 }, { versionKey: false })
