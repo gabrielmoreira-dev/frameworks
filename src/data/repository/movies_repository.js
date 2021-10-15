@@ -1,14 +1,14 @@
 const Movie = require('../models/movie')
 const movieData = require('../dummy/movies_data.json')
 
-exports.getMovies = (owner, categoria) => Movie
+exports.getMovies = (matricula, categoria) => Movie
     .find(categoria ? { categoria } : {})
-    .or([{ owner }, { owner: { $eq: null } }])
-    .sort({ 'createdAt': -1 })
-    .select('-createdAt -owner')
+    .or([{ matricula }, { matricula: { $eq: null } }])
+    .sort({ 'criadoEm': -1 })
+    .select('-criadoEm -owner')
 
-exports.insertMovie = (owner, movie) => Movie.create({
-    owner,
+exports.insertMovie = (matricula, movie) => Movie.create({
+    matricula,
     ...movie
 })
 
