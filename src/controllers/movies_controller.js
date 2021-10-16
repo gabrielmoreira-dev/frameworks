@@ -3,7 +3,7 @@ const moviesRepository = require('../data/repository/movies_repository')
 exports.getMovies = async (req, res) => {
     try {
         const movies = await moviesRepository.getMovies(
-            req.headers.user,
+            req.headers.matricula,
             req.query.categoria
         )
         res.status(200).send(movies)
@@ -15,7 +15,7 @@ exports.getMovies = async (req, res) => {
 exports.insertMovie = async (req, res) => {
     try {
         const movie = await moviesRepository.insertMovie(
-            req.headers.user,
+            req.headers.matricula,
             req.body
         )
         res.status(200).send(movie)
