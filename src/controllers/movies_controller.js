@@ -1,4 +1,5 @@
 const moviesRepository = require('../data/repository/movies_repository')
+const { reqError, serverError } = require('../common/errors')
 
 exports.getMovies = async (req, res) => {
     try {
@@ -8,11 +9,16 @@ exports.getMovies = async (req, res) => {
         )
         res.status(200).send(movies)
     } catch (e) {
-        res.status(500).send()
+        sendError(res, serverError)
     }
 }
 
 exports.insertMovie = async (req, res) => {
+    const { nome, foto, categoria, sinopse, ano, duracao } = req.body
+    if (!nome || !foto || !categoria || !sinopse || !ano || !duracao) {
+        return sendError(res, reqError)
+    }
+
     try {
         const movie = await moviesRepository.insertMovie(
             req.headers.matricula,
@@ -20,7 +26,7 @@ exports.insertMovie = async (req, res) => {
         )
         res.status(200).send(movie)
     } catch (e) {
-        res.status(500).send()
+        sendError(res, serverError)
     }
 }
 
@@ -30,7 +36,7 @@ exports.updateMovie = async (req, res) => {
         const movie = await moviesRepository.updateMovie(id, req.body)
         res.status(200).send(movie)
     } catch (e) {
-        res.status(500).send()
+        sendError(res, serverError)
     }
 }
 
@@ -40,7 +46,7 @@ exports.deleteMovie = async (req, res) => {
         await moviesRepository.deleteMovie(id)
         res.status(200).send()
     } catch (e) {
-        res.status(500).send()
+        sendError(res, serverError)
     }
 }
 
@@ -50,6 +56,9 @@ exports.resetMovies = async (_, res) => {
         const movies = await moviesRepository.setMovies()
         res.status(200).send(movies)
     } catch (e) {
-        res.status(500).send()
+        sendError(res, serverError)
     }
 }
+
+const sendError = (res, error) => res
+    .status(error.status).send(error.msg)
