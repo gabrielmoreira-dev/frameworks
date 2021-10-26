@@ -1,0 +1,274 @@
+[
+    {
+        "nome": "O Embaixador",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5c/O_Embaixador.jpg/220px-O_Embaixador.jpg",
+        "artista": "Gusttavo Lima",
+        "gravadora": "Som Livre",
+        "ano": 2018,
+        "categoria": "Sertanejo",
+        "musicas": [
+            {
+                "nome": "Zé da Recaída",
+                "duracao": "2:50"
+            },
+            {
+                "nome": "Mil Vezes Cantarei",
+                "duracao": "4:46"
+            },
+            {
+                "nome": "Na Hora de Amar",
+                "duracao": "5:25"
+            },
+            {
+                "nome": "Cem Mil",
+                "duracao": "3:23"
+            },
+            {
+                "nome": "Tudo Que Vai um Dia Volta",
+                "duracao": "3:07"
+            },
+            {
+                "nome": "Eu Não Iria",
+                "duracao": "3:17"
+            }
+        ]
+    },
+    {
+        "nome": "The Dark Side of the Moon",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
+        "artista": "Pink Floyd",
+        "gravadora": "Harvest Records",
+        "ano": 1973,
+        "categoria": "Rock",
+        "musicas": [
+            {
+                "nome": "Speak to Me",
+                "duracao": "1:30"
+            },
+            {
+                "nome": "Breathe",
+                "duracao": "2:43"
+            },
+            {
+                "nome": "On the Run",
+                "duracao": "3:36"
+            },
+            {
+                "nome": "Time",
+                "duracao": "7:01"
+            },
+            {
+                "nome": "The Great Gig in the Sky",
+                "duracao": "4:36"
+            },
+            {
+                "nome": "Money",
+                "duracao": "6:22"
+            }
+        ]
+    },
+    {
+        "nome": "Appetite for Destruction",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/0/06/Appetite_for_Destruction.jpg",
+        "artista": "Guns N' Roses",
+        "gravadora": "Geffen",
+        "ano": 1987,
+        "categoria": "Rock",
+        "musicas": [
+            {
+                "nome": "Welcome To The Jungle",
+                "duracao": "4:34"
+            },
+            {
+                "nome": "Mr. Brownstone",
+                "duracao": "3:49"
+            },
+            {
+                "nome": "Paradise City",
+                "duracao": "6:46"
+            },
+            {
+                "nome": "Sweet Child O' Mine",
+                "duracao": "5:55"
+            },
+            {
+                "nome": "You're Crazy",
+                "duracao": "3:17"
+            },
+            {
+                "nome": "Rocket Queen",
+                "duracao": "6:13"
+            }
+        ]
+    },
+    {
+        "nome": "Deixa a Vida me Levar",
+        "capa": "https://img.discogs.com/mQ7OYHqa568P3h6rl5HbEXKsyHE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6741812-1425690190-8466.jpeg.jpg",
+        "artista": "Exaltasamba",
+        "gravadora": "Universal Music Group",
+        "ano": 2002,
+        "categoria": "Samba",
+        "musicas": [
+            {
+                "nome": "Meu Modo de Ser",
+                "duracao": "3:56"
+            },
+            {
+                "nome": "Deixa a Vida Me Levar",
+                "duracao": "3:43"
+            },
+            {
+                "nome": "Pra Gente Se Amar",
+                "duracao": "4:54"
+            },
+            {
+                "nome": "Caviar",
+                "duracao": "3:36"
+            },
+            {
+                "nome": "Debaixo do Meu Chapéu",
+                "duracao": "3:18"
+            },
+            {
+                "nome": "Riquezas do Brazil",
+                "duracao": "3:48"
+            }
+        ]
+    },
+    {
+        "nome": "Agora",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Capa_de_Bruno_%26_Marrone_Agora.jpg/220px-Capa_de_Bruno_%26_Marrone_Agora.jpg",
+        "artista": "Bruno e Marrone",
+        "gravadora": "Sony Music",
+        "ano": 2014,
+        "categoria": "Sertanejo",
+        "musicas": [
+            {
+                "nome": "Agora (Ahora)",
+                "duracao": "3:59"
+            },
+            {
+                "nome": "Não Vou Chorar",
+                "duracao": "3:18"
+            },
+            {
+                "nome": "Dormi na Praça",
+                "duracao": "2:55"
+            },
+            {
+                "nome": "Evidências",
+                "duracao": "4:23"
+            },
+            {
+                "nome": "Força Estranha",
+                "duracao": "4:30"
+            },
+            {
+                "nome": "Você Me Vira a Cabeça",
+                "duracao": "3:14"
+            }
+        ]
+    },
+    {
+        "nome": "x",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/ad/X_cover.png/220px-X_cover.png",
+        "artista": "Ed Sheeran",
+        "gravadora": "Asylum",
+        "ano": 2014,
+        "categoria": "Pop",
+        "musicas": [
+            {
+                "nome": "I'm a Mess",
+                "duracao": "4:06"
+            },
+            {
+                "nome": "Photograph",
+                "duracao": "4:17"
+            },
+            {
+                "nome": "Runaway",
+                "duracao": "3:26"
+            },
+            {
+                "nome": "Thinking Out Loud",
+                "duracao": "4:40"
+            },
+            {
+                "nome": "Tenerife Sea",
+                "duracao": "4:00"
+            },
+            {
+                "nome": "Afire Love",
+                "duracao": "4:58"
+            }
+        ]
+    },
+    {
+        "nome": "Ária",
+        "capa": "https://djavan.com.br/content/uploads/2018/10/aria-392x0-c-default.jpg",
+        "artista": "Djavan",
+        "gravadora": "Luanda Records",
+        "ano": 2010,
+        "categoria": "MPB",
+        "musicas": [
+            {
+                "nome": "Disfarça e Chora",
+                "duracao": "3:06"
+            },
+            {
+                "nome": "Oração ao Tempo",
+                "duracao": "4:04"
+            },
+            {
+                "nome": "Sabes Mentir",
+                "duracao": "2:58"
+            },
+            {
+                "nome": "Lilás",
+                "duracao": "4:43"
+            },
+            {
+                "nome": "Seduzir",
+                "duracao": "4:19"
+            },
+            {
+                "nome": "Sina",
+                "duracao": "4:29"
+            }
+        ]
+    },
+    {
+        "nome": "RoupaAcústico",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Roupa_Nova_ac%C3%BAstico_capa.jpg/220px-Roupa_Nova_ac%C3%BAstico_capa.jpg",
+        "artista": "Roupa Nova",
+        "gravadora": "Universal Music",
+        "ano": 2004,
+        "categoria": "MPB",
+        "musicas": [
+            {
+                "nome": "Dona",
+                "duracao": "3:30"
+            },
+            {
+                "nome": "A Força do Amor",
+                "duracao": "4:27"
+            },
+            {
+                "nome": "Volta Pra Mim",
+                "duracao": "4:02"
+            },
+            {
+                "nome": "Anjo",
+                "duracao": "3:14"
+            },
+            {
+                "nome": "À Flor da Pele",
+                "duracao": "4:12"
+            },
+            {
+                "nome": "Sapato Velho",
+                "duracao": "3:57"
+            }
+        ]
+    }
+]
