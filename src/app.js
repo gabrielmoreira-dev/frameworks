@@ -23,4 +23,7 @@ app.use((_, res, next) => {
 const moviesRoutes = require("./routes/movies")
 app.use('/api/filmes', moviesRoutes)
 
+const albumsRoutes = require("./routes/albums")
+app.use('/api/albums', albumsRoutes)
+
 module.exports = app

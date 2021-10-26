@@ -1,4 +1,4 @@
-const mongoose = require('../../infrastructure/mongoose')
+const mongoose = require('../../../infrastructure/mongoose')
 const CharacterSchema = require('./character_schema')
 const Category = require('../category')
 
