@@ -1,4 +1,4 @@
-const mongoose = require('../../infrastructure/mongoose')
+const mongoose = require('../../../infrastructure/mongoose')
 
 module.exports = new mongoose.Schema({
     nome: {

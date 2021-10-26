@@ -1,4 +1,4 @@
-const Movie = require('../models/movie')
+const Movie = require('../models/movies/movie')
 const movieData = require('../dummy/movies_data.json')
 
 exports.getMovies = (matricula, categoria) => Movie
