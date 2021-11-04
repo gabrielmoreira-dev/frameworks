@@ -24,6 +24,6 @@ const moviesRoutes = require("./routes/movies")
 app.use('/api/filmes', moviesRoutes)
 
 const albumsRoutes = require("./routes/albums")
-app.use('/api/albums', albumsRoutes)
+app.use('/api/albuns', albumsRoutes)
 
 module.exports = app
