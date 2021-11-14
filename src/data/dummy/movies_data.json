@@ -1,7 +1,57 @@
 [
     {
+        "nome": "Capitão América: Guerra Civil",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/pictures/16/03/10/20/36/363874.jpg",
+        "categoria": "Ação",
+        "sinopse": "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro.",
+        "ano": 2016,
+        "duracao": 147,
+        "personagens": [
+            {
+                "nome": "Steve Rogers",
+                "ator": "Chris Evans"
+            }
+        ]
+    },
+    {
+        "nome": "De volta para o futuro",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/95/62/20122008.jpg",
+        "categoria": "Ficção",
+        "sinopse": "Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece sua mãe (Lea Thompson), antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.",
+        "ano": 1985,
+        "duracao": 176,
+        "personagens": [
+            {
+                "nome": "Marty McFly",
+                "ator": "Michael J. Fox"
+            },
+            {
+                "nome": "Dr. Emmett L. 'Doc' Brown",
+                "ator": "Christopher Lloyd"
+            }
+        ]
+    },
+    {
+        "nome": "Deadpool",
+        "foto": "https://br.web.img2.acsta.net/c_310_420/pictures/20/01/10/15/42/1604813.jpg",
+        "categoria": "Comédia",
+        "sinopse": "Ex-militar e mercenário, Wade Wilson (Ryan Reynolds) é diagnosticado com câncer em estado terminal, porém encontra uma possibilidade de cura em uma sinistra experiência científica. Recuperado, com poderes e um incomum senso de humor, ele torna-se Deadpool e busca vingança contra o homem que destruiu sua vida.",
+        "ano": 2016,
+        "duracao": 108,
+        "personagens": [
+            {
+                "nome": "Wade Wilson",
+                "ator": "Ryan Reynolds"
+            },
+            {
+                "nome": "Vanessa Carlysle",
+                "ator": "Morena Baccarin"
+            }
+        ]
+    },
+    {
         "nome": "Harry Potter e as Relíquias da Morte Parte 1",
-        "foto": "https://pm1.narvii.com/6858/dc719993a12098cf4ca0b5fa60ebb6ce711baa91v2_hq.jpg",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/90/18/19962717.jpg",
         "categoria": "Fantasia",
         "sinopse": "Prestes a completar 17 anos, Harry Potter (Daniel Radcliffe) precisa ser transportado da casa dos seus tios, os Dursley, até um local seguro. Lorde Voldemort (Ralph Fiennes) e seus comensais da morte sabem que a transferência está prestes a acontecer e aguardam sua realização para atacar. Para que ela ocorra vários amigos de Harry, como Rony Weasley (Rupert Grint), Hermione Granger (Emma Watson), Remo Lupin (David Thewlis), Hagrid (Robbie Coltrane) e \"Olho-Tonto\" Moody (Brendan Gleeson), tomam a Poção Polissuco e assumem a forma física de Harry. A intenção é despistar Voldemort sobre quem é o Harry verdadeiro, de forma que ele possa chegar seguro à Toca, casa dos Weasley. A missão é bem sucedida, mas logo a situação se torna ainda mais perigosa. O Ministro da Magia Rufus Scrimgeour (Bill Nighy) é morto e, em seu lugar, assume um dos asseclas de Voldemort. Harry e seus amigos passam a ser caçados impiedosamente, obrigando que ele, Rony e Hermione fujam. Precisando mudar constantemente de lugar, eles elaboram um plano para encontrar e destruir as horcruxes que podem eliminar Voldemort de uma vez por todas.",
         "ano": 2010,
@@ -23,7 +73,7 @@
     },
     {
         "nome": "Harry Potter e as Relíquias da Morte Parte 2",
-        "foto": "https://play-lh.googleusercontent.com/06bQR3NBl6wR3QBKruELmYru3rnQV75uCHFvZgf1D7WiGXlMHGG1mLAqXFT7SrfLyQQB",
+        "foto": "https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/91/95/19962896.jpg",
         "categoria": "Fantasia",
         "sinopse": "Em Harry Potter e as Relíquias da Morte - Parte 2, Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) seguem à procura das horcruxes. O objetivo do trio é encontrá-las e, em seguida, destruí-las, de forma a eliminar lorde Voldemort (Ralph Fiennes) de uma vez por todas. Com a ajuda do duende Grampo (Warwick Davis), eles entram no banco Gringotes de forma a invadir o cofre de Bellatrix Lestrange (Helena Bonham Carter). De lá retornam ao castelo de Hogwarts, onde precisam encontrar mais uma horcrux. Paralelamente, Voldemort prepara o ataque definitivo ao castelo.",
         "ano": 2011,
@@ -42,6 +92,72 @@
                 "ator": "Emma Watson"
             }
         ]
+    },
+    {
+        "nome": "Homem de Ferro",
+        "foto": "https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/91/79/19/20163665.jpg",
+        "categoria": "Ação",
+        "sinopse": "O gênio, bilionário, playboy e filantropo Tony Stark, que herdou do seu pai o empreiteiro de defesa Indústrias Stark, está no Afeganistão dilacerado pela guerra, com seu amigo e tenente-coronel James Rhodes, para demonstrar o novo míssil \"Jericho\". Após a demonstração, o comboio é emboscado e Stark é gravemente ferido por uma de suas próprias granadas lançadas por foguete. Ele é capturado e preso em uma caverna por um grupo terrorista, os Dez Anéis, e um eletroímã é embutido em seu peito por seu companheiro refém Yinsen para manter os fragmentos de uma bomba longe de seu coração. O líder do Dez Anéis, Raza, oferece a Stark liberdade em troca de construir um míssil Jericho para o grupo, mas Tony e Yinsen concordam que Raza não vai manter a sua palavra.",
+        "ano": 2008,
+        "duracao": 126,
+        "personagens": [
+            {
+                "nome": "Tony Stark",
+                "ator": "Robert Downey Jr."
+            },
+            {
+                "nome": "Pepper Pots",
+                "ator": "Gwyneth Paltrow"
+            }
+        ]
+    },
+    {
+        "nome": "It - A Coisa",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/pictures/17/03/30/22/44/345288.jpg",
+        "categoria": "Terror",
+        "sinopse": "Em It - A Coisa, um grupo de sete adolescentes de Derry, uma cidade no Maine, formam o auto-intitulado \"Losers Club\" - o clube dos perdedores. A pacata rotina da cidade é abalada quando crianças começam a desaparecer e tudo o que pode ser encontrado delas são partes de seus corpos. Logo, os integrantes do \"Losers Club\" acabam ficando face a face com o responsável pelos crimes: o palhaço Pennywise.",
+        "ano": 2017,
+        "duracao": 132,
+        "personagens": [
+            {
+                "nome": "Pennywise",
+                "ator": "Bill Skarsgard"
+            },
+            {
+                "nome": "Bill Denbrough",
+                "ator": "Jaeden Martell"
+            }
+        ]
+    },
+    {
+        "nome": "O Poderoso Chefão",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/93/20/20120876.jpg",
+        "categoria": "Drama",
+        "sinopse": "Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.",
+        "ano": 1972,
+        "duracao": 175,
+        "personagens": [
+            {
+                "nome": "Don Vito Corleone",
+                "ator": "Marlon Brando"
+            },
+            {
+                "nome": "Michael Corleone",
+                "ator": "Al Pacino"
+            },
+            {
+                "nome": "James Caan",
+                "ator": "Santino 'Sonny' Corleone"
+            }
+        ]
+    },
+    {
+        "nome": "Senna",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/91/23/19962822.jpg",
+        "categoria": "Documentário",
+        "sinopse": "O documentário Senna: O Brasileiro, O Herói, O Campeão conta a história do ídolo brasileiro Ayrton Senna. Em Junho de 1984, GP de Mônaco de Fórmula 1. Seis atuais ou futuros campeões mundiais estavam na pista, mas as atenções ficaram voltadas para um jovem que largara em 13º lugar e estava apenas em sua sexta corrida. Ultrapassando um a um, ele alcançou seu primeiro pódio e apenas não venceu devido a uma questão técnica. Seu nome era Ayrton Senna. Toda trajetória do tricampeão mundial, contada desde a ascensão no automobilismo até sua morte em pleno GP de San Marino, em 1994, passando pela rivalidade com Alain Prost e os problemas enfrentados nos bastidores da Fórmula 1.",
+        "ano": 2010,
+        "duracao": 164
     },
     {
         "nome": "Star Wars Episódio II - Ataque dos Clones",
@@ -66,26 +182,26 @@
         ]
     },
     {
-        "nome": "De volta para o futuro",
-        "foto": "https://br.web.img3.acsta.net/medias/nmedia/18/90/95/62/20122008.jpg",
-        "categoria": "Ficção",
-        "sinopse": "Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece sua mãe (Lea Thompson), antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.",
-        "ano": 1985,
-        "duracao": 176,
+        "nome": "Titanic",
+        "foto": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/89/56/94/20055685.jpg",
+        "categoria": "Romance",
+        "sinopse": "Jack Dawson (Leonardo DiCaprio) é um jovem aventureiro que, na mesa de jogo, ganha uma passagem para a primeira viagem do transatlântico Titanic. Trata-se de um luxuoso e imponente navio, anunciado na época como inafundável, que parte para os Estados Unidos. Nele está também Rose DeWitt Bukater (Kate Winslet), a jovem noiva de Caledon Hockley (Billy Zane). Rose está descontente com sua vida, já que sente-se sufocada pelos costumes da elite e não ama Caledon. Entretanto, ela precisa se casar com ele para manter o bom nome da família, que está falida. Um dia, desesperada, Rose ameaça se atirar do Titanic, mas Jack consegue demovê-la da ideia. Pelo ato ele é convidado a jantar na primeira classe, onde começa a se tornar mais próximo de Rose. Logo eles se apaixonam, despertando a fúria de Caledon. A situação fica ainda mais complicada quando o Titanic se choca com um iceberg, provocando algo que ninguém imaginava ser possível: o naufrágio do navio.",
+        "ano": 1998,
+        "duracao": 194,
         "personagens": [
             {
-                "nome": "Marty McFly",
-                "ator": "Michael J. Fox"
+                "nome": "Jack Dawson",
+                "ator": "Leonardo DiCaprio"
             },
             {
-                "nome": "Dr. Emmett L. 'Doc' Brown",
-                "ator": "Christopher Lloyd"
+                "nome": "Rose DeWitt Bukater",
+                "ator": "Kate Winslet"
             }
         ]
     },
     {
         "nome": "Vingadores Ultimato",
-        "foto": "https://play-lh.googleusercontent.com/nz5s7-HJ3iijnvitzCwsa_oD5l7saKAnF_Hv3qGtsP6dtsXTqESZmfuQKqyZZD4UywyB",
+        "foto": "https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg",
         "categoria": "Ação",
         "sinopse": "Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.",
         "ano": 2019,
@@ -106,86 +222,6 @@
             {
                 "nome": "Thor",
                 "ator": "Chris Hemsworth"
-            }
-        ]
-    },
-    {
-        "nome": "Homem Aranha 2",
-        "foto": "https://br.web.img2.acsta.net/pictures/210/544/21054460_2013103118041242.jpg",
-        "categoria": "Fantasia",
-        "sinopse": "Em Homem-Aranha 2, após derrotar o Duende Verde, a vida de Peter Parker (Tobey Maguire) muda por completo. Temendo que Mary Jane (Kirsten Dunst) sofra algum risco por ser ele o Homem-Aranha, Peter continua escondendo o amor que sente e se mantém longe dela. Ao mesmo tempo precisa lidar com Harry (James Franco), seu melhor amigo, cuja raiva pelo Homem-Aranha aumenta cada vez mais por considerá-lo como sendo o assassino de seu pai. Além disso sua tia May (Rosemary Harris) passa por uma fase difícil após a morte de seu tio Ben, estranhando também o comportamento do sobrinho. Enquanto precisa lidar com seus problemas particulares Peter recebe ainda uma má notícia: o surgimento do Dr. Octopus (Alfred Molina), um homem que possui tentáculos presos ao corpo.",
-        "ano": 2004,
-        "duracao": 127,
-        "personagens": [
-            {
-                "nome": "Peter Parker/Spider-Man",
-                "ator": "Tobey Maguire"
-            },
-            {
-                "nome": "Mary Jane Watson",
-                "ator": "Kirsten Dunst"
-            },
-            {
-                "nome": "Dr. Otto Octavius/Doc Ock",
-                "ator": "Alfred Molina"
-            }
-        ]
-    },
-    {
-        "nome": "Os Incríveis 2",
-        "foto": "https://clube-static.clubegazetadopovo.com.br/images/parceiros/1602268647844.png",
-        "categoria": "Fantasia",
-        "sinopse": "Quando Helena Pêra é chamada para voltar a lutar contra o crime como a super-heroína Mulher-Elástica, cabe ao seu marido, Roberto, a tarefa de cuidar das crianças, especialmente o bebê Zezé. O que ele não esperava era que o caçula da família também tivesse superpoderes, que surgem sem qualquer controle.",
-        "ano": 2018,
-        "duracao": 118
-    },
-    {
-        "nome": "Homem de Ferro",
-        "foto": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/00/Iron_Man_poster.jpg/250px-Iron_Man_poster.jpg",
-        "categoria": "Ação",
-        "sinopse": "O gênio, bilionário, playboy e filantropo Tony Stark, que herdou do seu pai o empreiteiro de defesa Indústrias Stark, está no Afeganistão dilacerado pela guerra, com seu amigo e tenente-coronel James Rhodes, para demonstrar o novo míssil \"Jericho\". Após a demonstração, o comboio é emboscado e Stark é gravemente ferido por uma de suas próprias granadas lançadas por foguete. Ele é capturado e preso em uma caverna por um grupo terrorista, os Dez Anéis, e um eletroímã é embutido em seu peito por seu companheiro refém Yinsen para manter os fragmentos de uma bomba longe de seu coração. O líder do Dez Anéis, Raza, oferece a Stark liberdade em troca de construir um míssil Jericho para o grupo, mas Tony e Yinsen concordam que Raza não vai manter a sua palavra.",
-        "ano": 2008,
-        "duracao": 126,
-        "personagens": [
-            {
-                "nome": "Tony Stark",
-                "ator": "Robert Downey Jr."
-            },
-            {
-                "nome": "Pepper Pots",
-                "ator": "Gwyneth Paltrow"
-            }
-        ]
-    },
-    {
-        "nome": "Homem de Ferro 2",
-        "foto": "https://cdn.telecineplay.com.br/isl/api/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%27177721%27&EntityType=%27Item%27&EntityId=%276201%27&Width=720&Height=1080&device=web_browser&subscriptions=Anonymous",
-        "categoria": "Ação",
-        "sinopse": "Após confessar ao mundo ser o Homem de Ferro, Tony Stark (Robert Downey Jr.) passa a ser alvo do governo dos Estados Unidos, que deseja que ele entregue seu poderoso traje. Com a negativa, o governo passa a desenvolver um novo traje com o maior rival de Stark, Justin Hammer (Sam Rockwell). Jim Rhodes (Don Cheadle), o braço direito de Tony, é colocado no centro deste conflito, o que faz com que assuma a identidade de Máquina de Combate. Paralelamente, Ivan Vanko (Mickey Rourke) cria o alter-ego de Whiplash para se vingar dos atos da família Stark no passado. Para combater Whiplash e a perseguição do governo, Stark conta com o apoio de sua nova assistente, Natasha Romanoff (Scarlett Johansson), e de Nick Fury (Samuel L. Jackson), o diretor da S.H.I.E.L.D.",
-        "ano": 2010,
-        "duracao": 124,
-        "personagens": [
-            {
-                "nome": "Tony Stark / Iron Man",
-                "ator": "Robert Downey Jr."
-            },
-            {
-                "nome": "Jim Rhodes",
-                "ator": "Don Cheadle"
-            }
-        ]
-    },
-    {
-        "nome": "Capitão América: Guerra Civil",
-        "foto": "https://upload.wikimedia.org/wikipedia/pt/5/53/Captain_America_Civil_War_poster.jpg",
-        "categoria": "Ação",
-        "sinopse": "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro.",
-        "ano": 2016,
-        "duracao": 147,
-        "personagens": [
-            {
-                "nome": "Steve Rogers",
-                "ator": "Chris Evans"
             }
         ]
     }
