@@ -1,141 +1,5 @@
 [
     {
-        "nome": "O Embaixador",
-        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5c/O_Embaixador.jpg/220px-O_Embaixador.jpg",
-        "artista": "Gusttavo Lima",
-        "gravadora": "Som Livre",
-        "ano": 2018,
-        "categoria": "Sertanejo",
-        "musicas": [
-            {
-                "nome": "Zé da Recaída",
-                "duracao": "2:50"
-            },
-            {
-                "nome": "Mil Vezes Cantarei",
-                "duracao": "4:46"
-            },
-            {
-                "nome": "Na Hora de Amar",
-                "duracao": "5:25"
-            },
-            {
-                "nome": "Cem Mil",
-                "duracao": "3:23"
-            },
-            {
-                "nome": "Tudo Que Vai um Dia Volta",
-                "duracao": "3:07"
-            },
-            {
-                "nome": "Eu Não Iria",
-                "duracao": "3:17"
-            }
-        ]
-    },
-    {
-        "nome": "The Dark Side of the Moon",
-        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
-        "artista": "Pink Floyd",
-        "gravadora": "Harvest Records",
-        "ano": 1973,
-        "categoria": "Rock",
-        "musicas": [
-            {
-                "nome": "Speak to Me",
-                "duracao": "1:30"
-            },
-            {
-                "nome": "Breathe",
-                "duracao": "2:43"
-            },
-            {
-                "nome": "On the Run",
-                "duracao": "3:36"
-            },
-            {
-                "nome": "Time",
-                "duracao": "7:01"
-            },
-            {
-                "nome": "The Great Gig in the Sky",
-                "duracao": "4:36"
-            },
-            {
-                "nome": "Money",
-                "duracao": "6:22"
-            }
-        ]
-    },
-    {
-        "nome": "Appetite for Destruction",
-        "capa": "https://upload.wikimedia.org/wikipedia/pt/0/06/Appetite_for_Destruction.jpg",
-        "artista": "Guns N' Roses",
-        "gravadora": "Geffen",
-        "ano": 1987,
-        "categoria": "Rock",
-        "musicas": [
-            {
-                "nome": "Welcome To The Jungle",
-                "duracao": "4:34"
-            },
-            {
-                "nome": "Mr. Brownstone",
-                "duracao": "3:49"
-            },
-            {
-                "nome": "Paradise City",
-                "duracao": "6:46"
-            },
-            {
-                "nome": "Sweet Child O' Mine",
-                "duracao": "5:55"
-            },
-            {
-                "nome": "You're Crazy",
-                "duracao": "3:17"
-            },
-            {
-                "nome": "Rocket Queen",
-                "duracao": "6:13"
-            }
-        ]
-    },
-    {
-        "nome": "Deixa a Vida me Levar",
-        "capa": "https://img.discogs.com/mQ7OYHqa568P3h6rl5HbEXKsyHE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6741812-1425690190-8466.jpeg.jpg",
-        "artista": "Exaltasamba",
-        "gravadora": "Universal Music Group",
-        "ano": 2002,
-        "categoria": "Samba",
-        "musicas": [
-            {
-                "nome": "Meu Modo de Ser",
-                "duracao": "3:56"
-            },
-            {
-                "nome": "Deixa a Vida Me Levar",
-                "duracao": "3:43"
-            },
-            {
-                "nome": "Pra Gente Se Amar",
-                "duracao": "4:54"
-            },
-            {
-                "nome": "Caviar",
-                "duracao": "3:36"
-            },
-            {
-                "nome": "Debaixo do Meu Chapéu",
-                "duracao": "3:18"
-            },
-            {
-                "nome": "Riquezas do Brazil",
-                "duracao": "3:48"
-            }
-        ]
-    },
-    {
         "nome": "Agora",
         "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Capa_de_Bruno_%26_Marrone_Agora.jpg/220px-Capa_de_Bruno_%26_Marrone_Agora.jpg",
         "artista": "Bruno e Marrone",
@@ -166,40 +30,6 @@
             {
                 "nome": "Você Me Vira a Cabeça",
                 "duracao": "3:14"
-            }
-        ]
-    },
-    {
-        "nome": "x",
-        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/ad/X_cover.png/220px-X_cover.png",
-        "artista": "Ed Sheeran",
-        "gravadora": "Asylum",
-        "ano": 2014,
-        "categoria": "Pop",
-        "musicas": [
-            {
-                "nome": "I'm a Mess",
-                "duracao": "4:06"
-            },
-            {
-                "nome": "Photograph",
-                "duracao": "4:17"
-            },
-            {
-                "nome": "Runaway",
-                "duracao": "3:26"
-            },
-            {
-                "nome": "Thinking Out Loud",
-                "duracao": "4:40"
-            },
-            {
-                "nome": "Tenerife Sea",
-                "duracao": "4:00"
-            },
-            {
-                "nome": "Afire Love",
-                "duracao": "4:58"
             }
         ]
     },
@@ -238,8 +68,160 @@
         ]
     },
     {
+        "nome": "Appetite for Destruction",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/0/06/Appetite_for_Destruction.jpg",
+        "artista": "Guns N' Roses",
+        "gravadora": "Geffen",
+        "ano": 1987,
+        "categoria": "Rock",
+        "musicas": [
+            {
+                "nome": "Welcome To The Jungle",
+                "duracao": "4:34"
+            },
+            {
+                "nome": "Mr. Brownstone",
+                "duracao": "3:49"
+            },
+            {
+                "nome": "Paradise City",
+                "duracao": "6:46"
+            },
+            {
+                "nome": "Sweet Child O' Mine",
+                "duracao": "5:55"
+            },
+            {
+                "nome": "You're Crazy",
+                "duracao": "3:17"
+            },
+            {
+                "nome": "Rocket Queen",
+                "duracao": "6:13"
+            }
+        ]
+    },
+    {
+        "nome": "Cartola",
+        "capa": "https://s.glbimg.com/jo/g1/f/original/blog/9cec9b45-45a8-4e9e-9419-39f39a9b7eb1_cartola1.jpg",
+        "artista": "Cartola",
+        "gravadora": "Discos Marcus Pereira",
+        "ano": 1974,
+        "categoria": "Samba",
+        "musicas": [
+            {
+                "nome": "Disfarça e Chora",
+                "duracao": "2:06"
+            },
+            {
+                "nome": "Acontece",
+                "duracao": "1:17"
+            }
+        ]
+    },
+    {
+        "nome": "Curtain Call",
+        "capa": "data:image/jpeg;base64,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",
+        "artista": "Eminem",
+        "gravadora": "Aftermath",
+        "ano": 2005,
+        "categoria": "Rap",
+        "musicas": [
+            {
+                "nome": "The Way I Am",
+                "duracao": "4:51"
+            },
+            {
+                "nome": "Lose Yourself",
+                "duracao": "5:26"
+            },
+            {
+                "nome": "Sing for the Moment",
+                "duracao": "5:40"
+            },
+            {
+                "nome": "Without Me",
+                "duracao": "4:51"
+            }
+        ]
+    },
+    {
+        "nome": "Exodus",
+        "capa": "https://www.vagalume.com.br/bob-marley/discografia/exodus-11.webp",
+        "artista": "Bob Marley",
+        "gravadora": "Island Records",
+        "ano": 1977,
+        "categoria": "Reggae",
+        "musicas": [
+            {
+                "nome": "Jamming",
+                "duracao": "3:31"
+            },
+            {
+                "nome": "Three Little Birds",
+                "duracao": "3:00"
+            },
+            {
+                "nome": "One Love / People Get Ready",
+                "duracao": "2:53"
+            }
+        ]
+    },
+    {
+        "nome": "O Embaixador",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5c/O_Embaixador.jpg/220px-O_Embaixador.jpg",
+        "artista": "Gusttavo Lima",
+        "gravadora": "Som Livre",
+        "ano": 2018,
+        "categoria": "Sertanejo",
+        "musicas": [
+            {
+                "nome": "Zé da Recaída",
+                "duracao": "2:50"
+            },
+            {
+                "nome": "Mil Vezes Cantarei",
+                "duracao": "4:46"
+            },
+            {
+                "nome": "Na Hora de Amar",
+                "duracao": "5:25"
+            },
+            {
+                "nome": "Cem Mil",
+                "duracao": "3:23"
+            },
+            {
+                "nome": "Tudo Que Vai um Dia Volta",
+                "duracao": "3:07"
+            },
+            {
+                "nome": "Eu Não Iria",
+                "duracao": "3:17"
+            }
+        ]
+    },
+    {
+        "nome": "One Love",
+        "capa": "https://www.vagalume.com.br/david-guetta/discografia/one-love-11.webp",
+        "artista": "David Guetta",
+        "gravadora": "EMI France",
+        "ano": 2009,
+        "categoria": "Eletrônica",
+        "musicas": [
+            {
+                "nome": "When Love Takes Over",
+                "duracao": "3:12"
+            },
+            {
+                "nome": "Gettin' Over You",
+                "duracao": "3:00"
+            }
+        ]
+    },
+    {
         "nome": "RoupaAcústico",
-        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Roupa_Nova_ac%C3%BAstico_capa.jpg/220px-Roupa_Nova_ac%C3%BAstico_capa.jpg",
+        "capa": "data:image/jpeg;base64,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",
         "artista": "Roupa Nova",
         "gravadora": "Universal Music",
         "ano": 2004,
@@ -268,6 +250,108 @@
             {
                 "nome": "Sapato Velho",
                 "duracao": "3:57"
+            }
+        ]
+    },
+    {
+        "nome": "The Dark Side of the Moon",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png",
+        "artista": "Pink Floyd",
+        "gravadora": "Harvest Records",
+        "ano": 1973,
+        "categoria": "Rock",
+        "musicas": [
+            {
+                "nome": "Speak to Me",
+                "duracao": "1:30"
+            },
+            {
+                "nome": "Breathe",
+                "duracao": "2:43"
+            },
+            {
+                "nome": "On the Run",
+                "duracao": "3:36"
+            },
+            {
+                "nome": "Time",
+                "duracao": "7:01"
+            },
+            {
+                "nome": "The Great Gig in the Sky",
+                "duracao": "4:36"
+            },
+            {
+                "nome": "Money",
+                "duracao": "6:22"
+            }
+        ]
+    },
+    {
+        "nome": "White Album",
+        "capa": "https://www.vagalume.com.br/the-beatles/discografia/the-beatles-white-album.webp",
+        "artista": "The Beatles",
+        "gravadora": "Apple",
+        "ano": 1968,
+        "categoria": "Rock",
+        "musicas": [
+            {
+                "nome": "Back in the U.S.S.R.",
+                "duracao": "2:43"
+            },
+            {
+                "nome": "Dear Prudence",
+                "duracao": "3:53"
+            },
+            {
+                "nome": "While My Guitar Gently Weeps",
+                "duracao": "4:45"
+            },
+            {
+                "nome": "Blackbird",
+                "duracao": "2:18"
+            },
+            {
+                "nome": "Helter Skelter",
+                "duracao": "4:29"
+            },
+            {
+                "nome": "Revolution 1",
+                "duracao": "4:15"
+            }
+        ]
+    },
+    {
+        "nome": "x",
+        "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/ad/X_cover.png/220px-X_cover.png",
+        "artista": "Ed Sheeran",
+        "gravadora": "Asylum",
+        "ano": 2014,
+        "categoria": "Pop",
+        "musicas": [
+            {
+                "nome": "I'm a Mess",
+                "duracao": "4:06"
+            },
+            {
+                "nome": "Photograph",
+                "duracao": "4:17"
+            },
+            {
+                "nome": "Runaway",
+                "duracao": "3:26"
+            },
+            {
+                "nome": "Thinking Out Loud",
+                "duracao": "4:40"
+            },
+            {
+                "nome": "Tenerife Sea",
+                "duracao": "4:00"
+            },
+            {
+                "nome": "Afire Love",
+                "duracao": "4:58"
             }
         ]
     }
