@@ -1,5 +1,5 @@
 const albumsRepository = require('../data/repository/albums_repository')
-const { reqError, serverError } = require('../common/errors')
+const { parameterError, serverError } = require('../common/errors')
 
 exports.getAlbums = async (req, res) => {
     try {
@@ -15,8 +15,24 @@ exports.getAlbums = async (req, res) => {
 
 exports.insertAlbum = async (req, res) => {
     const { nome, capa, categoria, artista, gravadora, ano } = req.body
-    if (!nome || !capa || !categoria || !artista || !gravadora || !ano) {
-        return sendError(res, reqError)
+
+    if (!nome) {
+        return sendError(res, parameterError('nome'))
+    }
+    if (!capa) {
+        return sendError(res, parameterError('capa'))
+    }
+    if (!categoria) {
+        return sendError(res, parameterError('categoria'))
+    }
+    if (!artista) {
+        return sendError(res, parameterError('artista'))
+    }
+    if (!gravadora) {
+        return sendError(res, parameterError('gravadora'))
+    }
+    if (!ano) {
+        return sendError(res, parameterError('ano'))
     }
 
     try {
